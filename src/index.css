@@ -1,6 +1,13 @@
 @import "tailwindcss";
+*{
+  scroll-behavior: smooth;
+}
+:root{
+  --primary:#2cff05
+}
 em{
-  color: #2cff05;
+  font-weight: bold;
+  color: var(--primary);
   font-style: normal;
 }
 body{

@@ -16,7 +16,7 @@ export default function Hero() {
                 em experiências com o <em className="text-green-500 not-italic">GSAP</em>
             </h1>
 
-            <div className=" absolute bottom-10 flex flex-col items-center gap-5 left-1/2">
+            <div className=" absolute bottom-10 flex flex-col items-center gap-5 left-1/2 -translate-x-1/2">
                 <p>Keep scrolling</p>
                 <div className="animate-bounce">
                     <FaArrowDown />
